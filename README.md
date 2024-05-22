@@ -1,5 +1,5 @@
 # About the project
-With the increasing focus on sustainable shopping, consumer preferences have shifted. I chose to analyze the sales data of a supermarket with three branches.
+I chose to analyze the sales data of a supermarket with three branches.
 
 # About the dataset
 The dataset provides information about online orders with order id, branch, costumer type, payment method, order date, city, sales amount, profits and rating.
