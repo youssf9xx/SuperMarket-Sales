@@ -6,7 +6,7 @@ The dataset provides information about online orders with order id, branch,costu
 1. What are the total sales for each branch in the last month?
 2. Which city has the highest average rating for customer satisfaction?
 3. What is the total revenue generated_by_each product line?
-4. 
+4. What is the difference between the total made by members and non members ?
 5. What is the average transaction value for each payment method?
 6. Which branch has the highest gross income over the last quarter?
 7. Which product line has the highest quantity of items sold?
