@@ -20,7 +20,7 @@ group by product_line
 order by total_sales desc
 
 
-4--How do sales compare between different customer types?
+4--What is the difference between the total made by members and non members ?
 select 
 abs(round(sum(case
         when `customer type`= 'member' then total else 0 end),0) 
@@ -29,7 +29,7 @@ abs(round(sum(case
         from sales.sales
         
         
---What is the average transaction value for each payment method?
+5--What is the average transaction value for each payment method?
 
 select payment, round(avg(total),0) as total
 from sales.sales
@@ -37,7 +37,7 @@ group by payment
 order by total desc
 
 
---Which branch has the highest gross income over the last quarter?
+6--Which branch has the highest gross income over the last quarter?
 
 select branch,round(sum(`gross income`),0) as gross_income
 from sales.sales
@@ -89,7 +89,7 @@ from sales.sales
 order by city, payment
 
 
-14-- Calculate the average customer rating for each branch and determine which branch has the highest overall customer satisfaction.
+13-- Calculate the average customer rating for each branch and determine which branch has the highest overall customer satisfaction.
 
 select branch, round(avg(rating),2) as average_rating
 from sales.sales
